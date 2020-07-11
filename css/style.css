@@ -1542,6 +1542,12 @@ ol {
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
+.payment-logo {
+    max-height: 50px;
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
 /* ----------------
   Responsive
 ---------------------*/
@@ -1882,6 +1888,10 @@ ol {
     .benefit-main-row i {
         font-size: 43px;
     }
+
+    .ali-pay {
+        max-height: 80px;
+    }
 }
 
 /* Medium Mobile :480px. */
@@ -2149,12 +2159,6 @@ ol {
 
 .map-image {
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
-}
-
-.payment-logo {
-    max-height: 50px;
-    filter: grayscale(100%);
-    opacity: 0.6;
 }
 
 #exampleModal {
