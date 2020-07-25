@@ -330,8 +330,14 @@
         <!-- One "tab" for each step in the form: -->
         <div class="tab">
             <div class="question">how anxious are you feeling right now? (use the slider below)</div>
-            <div class="slidecontainer">
+            <div style="text-align: center;" class="slidecontainer">
                 <input type="range" min="1" max="10" value="4" class="slider input" id="myRange">
+                <div class="col-12">
+                    <div class="row">
+                        <div style="position: absolute;" class="">lower</div>
+                        <div style="position: absolute; right: 0;" class="">higher</div>
+                    </div>
+                </div>
                 <p>level: <span id="demo"></span></p>
             </div>
         </div>
